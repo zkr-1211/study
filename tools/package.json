@@ -1,0 +1,15 @@
+{
+  "name": "study-docs-builder",
+  "private": true,
+  "type": "module",
+  "description": "构建语雀风格单文件文档站",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
+  },
+  "volta": {
+    "node": "18.18.2"
+  }
+}
